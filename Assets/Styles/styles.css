@@ -34,5 +34,5 @@ nav  a{ /* tous les liens a à l'intérieur de la balise nav */
     }
 
 nav > ul > li{
-    font-size: 24px;
+    font-size: 40px;
 }
