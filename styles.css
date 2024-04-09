@@ -1,0 +1,38 @@
+.line-height{
+    line-height: 2;
+}
+
+body{
+    background: rgb(251,63,63);
+    background: radial-gradient(circle, rgba(251,63,63,1) 0%, rgba(255,0,190,1) 100%);
+}
+
+.container{
+    color: black;
+}
+
+.flotte{
+    float: right;
+    height: 40vh;
+    width: auto;
+}
+
+nav  a{ /* tous les liens a à l'intérieur de la balise nav */
+    float: right; /* effet flottant */
+    text-decoration: none; /* pas d'héritage avec effet souligné */
+    color: #ffffff; /* couleur du texte */
+    background: #000000; /* couleur de fond */
+    height: 38px; /* hauteur */
+    line-height: 33px; /* interligne */
+    padding: 0 10px; /* marges intérieur */
+    font-family: sans-serif; /* police d'écriture */
+    font-size: 17px; /* taille du texte */
+    transition: .1s; /* temps de transition lors du hover : une demi seconde */
+    }
+    nav  a:hover{ /* tous liens lors du survol dans la balise nav */
+    background: #ff00b7; /* couleur de fond */
+    }
+
+nav > ul > li{
+    font-size: 24px;
+}
