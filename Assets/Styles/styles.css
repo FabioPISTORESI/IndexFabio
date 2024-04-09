@@ -1,5 +1,5 @@
 .line-height{
-    line-height: 2;
+    line-height: 1.25;
 }
 
 body{
@@ -7,7 +7,7 @@ body{
     background: linear-gradient(243deg, rgba(47,6,247,1) 0%, rgba(85,1,168,1) 35%, rgba(158,158,158,1) 100%);
 }
 
-.container{
+.container,p{
     color: black;
 }
 
@@ -35,4 +35,10 @@ nav  a{ /* tous les liens a à l'intérieur de la balise nav */
 
 nav > ul > li{
     font-size: 40px;
+    -webkit-text-stroke: 2px rgb(255, 255, 255);
+    text-stroke: 2px rgb(255, 255, 255);
 }
+
+a[href] {
+    color: rgb(0, 30, 255);
+  }
